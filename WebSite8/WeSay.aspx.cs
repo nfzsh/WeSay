@@ -54,6 +54,7 @@ public partial class _Default : System.Web.UI.Page
             MsgList.Test();
             Refresh();
         }
+        TextBox2.Text = null;
     }
 
     protected void ButtonName_Click(object sender, EventArgs e)
@@ -100,5 +101,11 @@ public partial class _Default : System.Web.UI.Page
         ButtonName.Visible = true;
         Button3.Visible = false;
         Button4.Visible = false;
+    }
+
+
+    protected void TextM_TextChanged1(object sender, EventArgs e)
+    {
+        
     }
 }
